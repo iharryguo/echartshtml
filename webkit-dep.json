@@ -1,0 +1,119 @@
+{
+    "type": "force",
+    "categories": [
+        {
+            "name": "human body(人体)",
+            "keyword": {},
+            "base": "HTMLElement",
+            "itemStyle": {
+                "normal": {
+                    "brushType": "both",
+                     "color": "#D0D102",
+                     "strokeColor": "#5182ab",
+                     "lineWidth": 1
+                }
+            }
+        },
+        {
+            "name": "country(国家)",
+            "keyword": {},
+            "base": "WebGLRenderingContext",
+            "itemStyle": {
+                "normal": {
+                    "brushType": "both",
+                    "color": "#00A1CB",
+                    "strokeColor": "#5182ab",
+                    "lineWidth": 1
+                }
+            }
+        },
+        {
+            "name": "education(教育)",
+            "keyword": {},
+            "base": "SVGElement",
+            "itemStyle": {
+                "normal": {
+                     "brushType": "both",
+                     "color": "#dda0dd",
+                     "strokeColor": "#5182ab",
+                     "lineWidth": 1
+                }
+            }
+        },
+        {
+            "name": "kin(亲属)",
+            "keyword": {},
+            "base": "CSSRule",
+            "itemStyle": {
+                "normal": {
+                     "brushType": "both",
+                     "color": "#61AE24",
+                     "strokeColor": "#5182ab",
+                     "lineWidth": 1
+                }
+            }
+        },
+        {
+            "name": "职业(job)",
+            "keyword": {},
+            "itemStyle": {
+                "normal": {
+                     "brushType": "both",
+                     "strokeColor": "#5182ab",
+                     "lineWidth": 1
+                }
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "name": "body",
+            "value": 100,
+            "category": 0
+        },
+        {
+            "name": "AudioNode",
+            "value": 20,
+            "category": 1
+        },
+        {
+            "name": "Uint8Array",
+            "value": 1,
+            "category": 2
+        },
+        {
+            "name": "Float32Array",
+            "value": 1,
+            "category": 3
+        },
+        {
+            "name": "ArrayBuffer",
+            "value": 1,
+            "category": 4
+        },
+        {
+            "name": "ArrayBufferView",
+            "value": 1,
+            "category": 4
+        },
+        {
+            "name": "Attr",
+            "value": 1,
+            "category": 4
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1
+        },
+        {
+            "source": 0,
+            "target": 2
+        },
+        {
+            "source": 2,
+            "target": 3
+        }
+    ]
+}
